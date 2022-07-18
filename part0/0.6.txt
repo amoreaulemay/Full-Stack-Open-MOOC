@@ -1,0 +1,8 @@
+title Exercise 0.5
+
+browser->server: HTTP POST: https://studies.cs.helsinki.fi/exampleapp/new_note
+server-->browser: HTTP Status 201: Accepted
+
+note over browser:
+server does not ask for redirect
+end note

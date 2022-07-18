@@ -1,0 +1,19 @@
+title Exercise 0.5
+
+browser->server: HTTP GET: https://studies.cs.helsinki.fi/exampleapp/spa
+server-->browser: HTTP Status 200: HTML-code
+server-->browser: HTTP Status 200: main.css
+server-->browser: HTTP Status 200: spa.js
+
+note over browser:
+browser starts executing js-code
+that renders the page and requests JSON data from server 
+end note
+
+browser->server: HTTP GET: https://studies.cs.helsinki.fi/exampleapp/data.json
+server-->browser: HTTP Status 200: JSON-data
+
+note over browser:
+browser executes event handler that
+renders notes on screen
+end note

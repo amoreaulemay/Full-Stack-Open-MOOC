@@ -1,0 +1,9 @@
+title Exercise 0.4
+
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note
+
+note over server:
+Server executes post request and add new entry to database
+end note
+
+server->browser: HTTP 200: Accepted
