@@ -1,5 +1,3 @@
-import React from "react";
-
 /**
  * @typedef ButtonProps
  * The props of a `Button` component.
